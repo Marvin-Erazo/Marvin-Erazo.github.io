@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/IMG/logo.svg" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    <title>Marvin .E</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/@iconify/iconify@2.1.2/dist/iconify.min.js"></script>
+
+</head>
+<body>
+
+    <div class="nav">
+        <center>
+        <div class="logo">
+            <a href="index.html"><img src="IMG/logo_small_icon_only.png" alt="logo"></a>
+                
+        </div>
+
+        <div class="nav-buttons">
+            <ul>
+                <li>
+                    <a href="#home" class="btn" id="home-btn"><span class="iconify" data-icon="ci:home-heart"></span></a>
+                    <div class="tooltip">Home</div>
+                </li>
+                <li>
+                    <a href="#works" class="btn" id="works-btn"><span class="iconify" data-icon="ic:outline-work"></span></a>
+                    <div class="tooltip">Works</div>
+                </li>
+                <li>
+                    <a href="#skills" class="btn" id="skills-btn"><span class="iconify" data-icon="ant-design:code-filled"></span></a>
+                    <div class="tooltip">Skills</div>
+                </li>
+                <li>
+                    <a href="#about" class="btn" id="about-btn"><span class="iconify" data-icon="carbon:user-favorite-alt-filled"></span></a>
+                    <div class="tooltip">About</div>
+                </li>
+                <li>
+                    <a href="#contact" class="btn" id="contact-btn"><span class="iconify" data-icon="ant-design:phone-filled"></span></a>
+                    <div class="tooltip">Contact</div>
+                </li>
+            </ul>
+        </div>
+
+        <div class="social">
+            <ul>
+                <li><a href="#"><span class="iconify" data-icon="brandico:facebook-rect"></span></a></li>
+                <li><a href="#"><span class="iconify" data-icon="brandico:linkedin-rect"></a></span></li>
+                <li><a href="#"><span class="iconify" data-icon="akar-icons:github-fill"></a></span></li>
+            </ul>
+        </div>
+        </center>
+    </div>
+
+    <div class="home" id="home">
+        <div class="title">
+            <div class="name">
+                 I'm Marvin Erazo
+            </div>
+            <div class="job">
+                Software <br> Developer
+            </div>
+            <div class="desc">
+                Desktop and Web
+            </div>
+            
+            <a href="" class="contact-btn">
+                Contact Me
+            </a>
+        </div>
+
+        <div class="home-img">
+            <img src="IMG/home-gift.gif" alt="programming">
+        </div>
+    </div>
+
+    <div class="works" id="works">
+
+        <ul class="slides">
+            <div class="slide-btn" id="prev">
+                <span class="iconify" data-icon="ic:round-navigate-before"></span>
+            </div>
+
+            <li class="work active" id="work1">
+                <img src="IMG/work1.png" alt="">
+                <br>
+                <div class="demo-btn">
+                    <a href="#">Live Demo</a>
+                </div>
+            </li>
+
+            <li class="work" id="work2">
+                <img src="IMG/work2.jpg" alt="">
+                <br>
+                <div class="demo-btn">
+                    <a href="#">Live Demo</a>
+                </div>
+            </li>
+
+            <li class="work" id="work3">
+                <img src="IMG/work3.jpg" alt="">
+                <br>
+                <div class="demo-btn">
+                    <a href="#">Live Demo</a>
+                </div>
+            </li>
+
+            <div class="slide-btn" id="next">
+                <span class="iconify"  data-icon="ic:round-navigate-before" data-rotate="180deg"></span>
+            </div>
+        </ul>
+    </div>
+    
+    <div class="skills" id="skills">
+        <div class="skills-title">
+            Skills
+        </div>
+
+        <div class="skills-content">
+            <ul class="lenguages" id="lenguages">
+                <li id="skill1">
+                    <p>Frontend</p>
+
+                    <div class="skill-btn" id="frontend-btn">
+                        <span class="iconify sk-btn" id="sk-frontend"  data-icon="akar-icons:circle-plus"></span>
+                    </div>
+                </li>
+                <li id="skill2">
+                    <p>Desktop</p>
+                    <div class="skill-btn" id="desktop-btn">
+                        <span class="iconify sk-btn" id="sk-desktop"  data-icon="akar-icons:circle-plus"></span>
+                    </div>
+                </li>
+                <li id="skill3">
+                    <p>Database</p>
+                    <div class="skill-btn" id="db-btn">
+                        <span class="iconify sk-btn" id="sk-db"  data-icon="akar-icons:circle-plus"></span>
+                    </div>
+                </li>
+                <li id="skill4">
+                    <p>Other</p>
+                    <div class="skill-btn" id="other-btn">
+                        <span class="iconify sk-btn" id="sk-other" data-icon="akar-icons:circle-plus"></span>
+                    </div>
+                </li>
+            </ul>
+    
+            <ul class="skill active" id="frontend">
+                <li>
+                    <p>HTML  <img src="IMG/html.png"  alt=""> </p>
+                    <progress id="HTML" max="100" value="90"></progress>
+                </li>
+
+                <li>
+                    <p>CSS <img src="IMG/css.png" alt=""></p>
+                    <progress id="CSS" max="100" value="60"></progress>
+                </li>
+
+                <li>
+                    <p>JS <img src="IMG/js.png" alt=""></p>
+                    <progress id="JS" max="100" value="75"></progress>
+                </li>
+
+                <li class="more" id="more-frontend">
+                    More info
+                    <span class="iconify" data-icon="icon-park-outline:doc-add"></span>
+                </li>
+            </ul>
+
+            <ul class="skill" id="desktop">
+                <li>
+                    <p>C# .Net Framework <img id="csharp-img" src="IMG/csharp.png" alt=""></p>
+                    <progress id="csharp" max="100" value="90"></progress>
+                </li>
+
+                <li  class="more" id="more-desktop">
+                    More info
+                    <span class="iconify" data-icon="icon-park-outline:doc-add"></span>
+                </li>
+            </ul>
+
+            <ul class="skill" id="database">
+                <li>
+                    <p>DB Desing <img src="IMG/db-design.png" alt=""></p>
+                    <progress id="db" max="100" value="90"></progress>
+                </li>
+
+                <li>
+                    <p>SQL Server <img src="IMG/db.png" alt=""></p>
+                    <progress id="sql" max="100" value="60"></progress>
+                </li>
+
+                <li  class="more" id="more-db">
+                    More info
+                    <span class="iconify" data-icon="icon-park-outline:doc-add"></span>
+                </li>
+            </ul>
+
+            <ul class="skill" id="other">
+                <li>
+                    <p>C++ <img src="IMG/cplus.png" alt=""></p>
+                    <progress id="cplus" max="100" value="90"></progress>
+                </li>
+
+                <li>
+                    <p>Java <img src="IMG/java.png" alt=""></p>
+                    <progress id="java" max="100" value="60"></progress>
+                </li>
+
+                <li  class="more" id="more-other">
+                    More info
+                    <span class="iconify" data-icon="icon-park-outline:doc-add"></span>
+                </li>
+            </ul>
+
+        </div>
+
+        <div class="modal" id="modal-frontend">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <div class="header">
+                        <h3>Frotend Skills</h3>
+                    </div>
+                    <span class="close" id="close-frontend">&times;</span>
+                </div>
+
+                <div class="modal-text">
+                    <h4>HTML</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate nihil rerum dolor.</p>
+                    <br>
+                    <h4>CSS</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate nihil rerum dolor.</p>
+                    <br>
+                    <h4>JS</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate nihil rerum dolor.</p>
+
+                </div>
+              </div>
+        </div>
+
+        <div class="modal" id="modal-desktop">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <div class="header">
+                        <h3>Desktop Skills</h3>
+                    </div>
+                    <span class="close" id="close-desktop">&times;</span>
+                </div>
+
+                <div class="modal-text">
+                    <h4>C#</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate nihil rerum dolor.</p>
+
+                </div>
+              </div>
+        </div>
+
+        <div class="modal" id="modal-db">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <div class="header">
+                        <h3>Database Skills</h3>
+                    </div>
+                    <span class="close" id="close-db">&times;</span>
+                </div>
+
+                <div class="modal-text">
+                    <h4>DB Desing</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate nihil rerum dolor.</p>
+                    <br>
+                    <h4>SQL Server</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate nihil rerum dolor.</p>
+                </div>
+              </div>
+        </div>
+        
+        <div class="modal" id="modal-other">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <div class="header">
+                        <h3>Other Skills</h3>
+                    </div>
+                    <span class="close" id="close-other">&times;</span>
+                </div>
+
+                <div class="modal-text">
+                    <h4>C++</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate nihil rerum dolor.</p>
+                    <br>
+                    <h4>Java</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate nihil rerum dolor.</p>
+                </div>
+              </div>
+        </div>
+    </div>
+
+    <div class="about" id="about">
+        <div class="aboutme">
+            <div class="description">
+                <h3>Who Am I?</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id rerum totam mollitia beatae provident eveniet ipsam vel, amet architecto magni inventore consequatur exercitationem eum dicta, aliquam veniam repellendus eius tempora tenetur. Voluptate doloremque nemo labore ducimus, autem assumenda deleniti omnis accusantium libero fugiat ea fugit, totam placeat explicabo soluta saepe.</p>
+            </div>
+
+            <div class="avatar"><img src="IMG/avatar.jpg" alt=""></div>
+        </div>
+
+        <div class="more-about">
+            <h4>More about me</h4>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam tenetur quis eius temporibus pariatur rem minima velit, facere nemo debitis maxime sed illo voluptas eos quibusdam provident, officia quaerat alias!</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam tenetur quis eius temporibus pariatur rem minima velit, facere nemo debitis maxime sed illo voluptas eos quibusdam provident, officia quaerat alias!</p>
+            <br>
+            <a href="">See more on my personal blog.</a>
+        </div>
+    </div>
+
+    <div class="contact" id="contact">
+        <div class="contact-title">
+            <h3>Contact me</h3>
+        </div>
+
+        <div class="contact-body">
+            <div class="contact-form">
+                <form action="">
+                    <div class="mail">
+                        <p>Subjetc</p>
+                        <input type="text" id="mail" placeholder="person/business" required>
+                    </div>
+
+                    <div class="message">
+                        <p>Message</p>
+                        <textarea name="" id="message" cols="30" rows="10" placeholder="Message"></textarea>
+                    </div>
+                    <div class="send">
+                        <input type="button" onclick="sendMail()" id="send" value="Send mail">
+                    </div> 
+                </form>
+
+                <div class="validacion"></div>
+            </div>
+
+            <div class="details">
+                <div class="contact-info">
+                    <div class="phone">
+                        <p class="title"> <span class="iconify-inline" data-icon="carbon:phone-incoming-filled"></span> Phone Number :</p>
+                        <p><a href="http://wa.me/593999253452">0999253452</a></p>
+                    </div>
+
+                    <div class="email">
+                        <p class="title"><span class="iconify-inline" data-icon="fluent:mail-28-filled"></span> E-mail :</p>
+                        <p><a href="mailto:marvin-erazo@hotmail.com">marvin-erazo@hotmail.com</a></p>
+                    </div>
+
+                    <div class="direction">
+                        <p class="title"><span class="iconify-inline" data-icon="el:map-marker"></span> Direction :</p>
+                        <p>Riobamba - Ecuador</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.min.js"></script>
+</body>
+</html>
